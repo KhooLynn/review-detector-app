@@ -8,7 +8,7 @@ function App() {
 
   const getReviews = async (presetName) => {
     const query = presetName || restaurant;
-    if (!query) return alert("Enter a school name");
+    if (!query) return alert("Enter a movie name");
     setLoading(true);
 
     try {
